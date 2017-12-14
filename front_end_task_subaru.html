@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subaru Task</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <!-- External css -->
+    <link rel="stylesheet" type="text/css" href="front_end_task_subaru.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="flex-container">
+           
+            <div class="wrapper">
+               
+                <div class="wrapper1">
+                    <div class="wrapper-heading"><strong><span class="spantext">Header Text</span></strong> </div>
+                    <div class="wrapper-icon"><span><i id = "ht1" class="fa fa-angle-down fa-2x" aria-hidden="true" onclick="hideShow('headertext','ht1','longheader','ht2');"></i></span></div>
+                </div>
+                <hr>
+                <div class="wrapper-body" id="headertext">
+
+                    <b><span class = "spantext">Packages Includes:</span></b><br><br>
+                    <ul>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                    </ul>
+                    <div class="button1"><button type="button" class="button">BUTTON</button></div>
+                </div>
+
+            </div>
+            <div class="wrapper">
+                <div class="wrapper1">
+                    <div class="wrapper-heading"><strong><span class="spantext">This is Long Header Text</span></strong></div>
+                    <div class="wrapper-icon"><span><i id = "ht2" class="fa fa-angle-down fa-2x" aria-hidden="true" onclick="hideShow('longheader','ht2','headertext','ht1');"></i></span></div>
+                </div>
+                <hr>
+                <div class="wrapper-body" id="longheader">
+
+                    <b><span class = "spantext">Packages Includes:</span></b><br><br>
+                    <ul>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                        <li>Item Name</li>
+                    </ul>
+                    <div class="button1"><button type="button" class="button">BUTTON</button></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="front_end_task_subaru.js"></script>
+</body>
+
+</html>
+
+
+
+
